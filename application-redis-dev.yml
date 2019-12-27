@@ -1,14 +1,3 @@
-spring:
-  application:
-    name: REDIS-SERVICE
-  cloud:
-    config:
-      name: application-redis
-      discovery:
-        enabled: true
-        service-id: CONFIG-SERVER   #从配置中心获取注册列表
-  profiles:
-    active: dev
 server:
   port: 9003
 
