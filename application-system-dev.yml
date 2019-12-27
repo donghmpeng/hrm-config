@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: SYSTEM-SERVICE
+  datasource:
+    url: jdbc:mysql:///hrm-system?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+
+hrm:
+  swagger:
+    title: 系统管理服务
+    description: 系统管理服务接口文档

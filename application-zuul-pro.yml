@@ -1,0 +1,17 @@
+server:
+  port: 9529
+
+spring:
+  application:
+    name: ZUUL-GATEWAY
+
+zuul:
+  prefix: /services
+  ignored-services: "*"
+  routes:
+    system:
+      path: /system/**
+      serviceId: SYSTEM-SERVICE
+    course:
+      path: /course/**
+      serviceId: COURSE-SERVICE
