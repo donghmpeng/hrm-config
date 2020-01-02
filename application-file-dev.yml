@@ -1,0 +1,8 @@
+server:
+  port: 9004
+
+hrm:
+  redis:
+    host: 127.0.0.1
+    post: 6379
+    password: itsource
